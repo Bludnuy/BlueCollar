@@ -74,7 +74,69 @@
 .top__ul li{
     width: 20px;
     height: 20px;
+    margin-bottom: 2px;
 }
+
+.logo{
+    display: block;
+    width: 242px;
+    height: 48px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.item{
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.item__img {
+   width: 68px;
+   height: 68px;
+   background-color:#FFB342;
+   border-radius: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 15px;
+}
+
+.item__text{
+    margin-top: 7px;
+}
+
+.text__norm{
+    font-family: 'Mulish';
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+}
+
+.text__op{
+    font-size: 17px;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+}
+
+.middle{
+    min-height: 128px;
+    display: flex;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    margin-left: auto;
+    width: 622px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 
 
 
