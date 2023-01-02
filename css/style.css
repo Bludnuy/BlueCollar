@@ -34,7 +34,7 @@
 
 
 .wrapper__dashed{
-    min-height: 1038px;
+    height: 500px;
     border: 3px dashed #f5f5f5;
     width: 1440px;
 }
@@ -44,11 +44,15 @@
     margin: 0 auto;
 }
 
-.top{
+.top__wrapper{
     min-height: 69px;
-    background-color: #f5f5f5;
+    
     align-items: center;
     display: flex;
+}
+
+.top{
+    background-color: #f5f5f5;
 }
 
 .top__text{
@@ -123,7 +127,7 @@
     color: #7E7E7E;
 }
 
-.middle{
+.middle__wrapper{
     min-height: 128px;
     display: flex;
     align-items: center;
@@ -135,6 +139,74 @@
     width: 622px;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main{
+    min-height: 813px;
+    background: url('../img/main__bg.png') center center/cover no-repeat;
+    padding-top: 270px;
+}
+
+.main__subtitle{
+    font-family: "Inter";
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    width: 622px;
+    padding-left: 60px;
+    margin-bottom: 30px;
+    
+}
+
+.main__subtitle::before{
+    position: absolute;
+    content: url('../icons/gearwheel.svg');
+    left: 20px;
+}
+
+.main__title{
+    font-family: 'Mulish';
+    font-size: 60px;
+    line-height: 78px;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 712px;
+    margin-bottom: 30px;
+}
+
+.main__link{
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    padding: 19px 42px;
+    background: #FFB342;
+    border: 2px solid #FFB342;
+    text-decoration: none;
+}
+
+.main__link:hover{
+    background: #425eff;
+    border: 2px solid #425eff;
+    color:#f5f5f5;
 }
 
 
