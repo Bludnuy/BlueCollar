@@ -283,7 +283,7 @@
     text-transform: capitalize;
     color: #1C2752;
     background: #F4F4F4;
-    display: inline-block;
+    width: 249px;
     padding-left: 53px;
     padding-right: 20px;
     position:relative;
@@ -379,8 +379,94 @@
     padding-top: 140px;
 }
 
-.commercial .welcome__subtitle{
-    margin: 0 auto;
+.commercial__subtitle{
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #1C2752;
+    background: #F4F4F4;
+    display: inline-block;
+    padding-left: 53px;
+    padding-right: 20px;
+    position:relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 22px;
 }
 
+.commercial__subtitle::before{
+    position: absolute;
+    content:url('../img/helmit.png');
+    left: 20px;
+}
 
+.commercial__title{
+    font-family: 'Mulish';
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    margin-bottom: 12px;
+}
+
+.commercial__descr{
+    width: 720px;
+    font-family: 'Inter';
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.commercial__links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.commercial__links li{
+    margin-right: 30px;
+}
+
+.commercial__links li:last-child{
+    margin-right: 0;
+}
+.commercial__link{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    color: #222222;
+    border: 1px solid #1C2752;
+    padding: 19px 42px;
+    padding-left: 85px;
+    position: relative;
+}
+
+.commercial__link:before{
+    position: absolute;
+    content: url('../icons/bank.png');
+    left: 41px;
+    top: 10px;
+}
+
+.commercial__bank:before{
+    position: absolute;
+    content: url('../icons/home.png');
+    left: 41px;
+    top: 10px;
+}
+
+.commercial__fabric:before{
+    position: absolute;
+    content: url('../icons/fabric.png');
+    left: 41px;
+    top: 10px;
+}
+.commercial__link:hover{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
