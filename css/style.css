@@ -377,6 +377,7 @@
     min-height: 900px;
     background-color:#FFB342;
     padding-top: 140px;
+    position: relative;
 }
 
 .commercial__subtitle{
@@ -470,3 +471,226 @@
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
 }
+
+.electric__wrapper{
+    display: flex;
+    width: 1160px;
+    min-height: 528px;
+    background-color: #fff;
+    padding: 60px;
+    position: absolute;
+    bottom: -98px;
+}
+
+.electric__descr{
+    padding-right: 127px;
+}
+
+.electric__img img{
+    width: 416px;
+    height: 366px;
+    margin-top: 12px;
+}
+.electric__subtitle{
+    font-size: 17px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #1C2752;
+    background-color: #F4F4F4;
+    display: inline;
+    padding-left: 58px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    position: relative;
+    
+}
+
+.electric__subtitle::before{
+    position: absolute;
+    content: url('../img/manuf.png');
+    left: 20px;
+}
+
+.electric__title{
+    font-family: 'Mulish';
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    margin-bottom: 12px;
+    margin-top: 40px;
+}
+
+.commercial__text{
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+    margin-bottom: 10px;
+}
+
+.electric__link{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    background-color: #FFB342;
+    border: 2px solid #FFB342;
+    padding: 19px 40px;
+    width: 190px;
+    margin-top: 17px;
+}
+
+.electric__link:hover{
+    background: #2e6150;
+    border: 1px solid #2e6150;
+}
+
+.service{
+    min-height: 1400px;
+    background-color: #F4F4F4;
+    padding-top: 240px;
+}
+
+.service__subtitle{
+   
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #1C2752;
+    background-color:#fff;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 52px;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 22px;
+}
+
+.service__subtitle::before{
+    position: absolute;
+    content: url('../icons/note.png');
+    left: 20px;
+}
+
+.service__title{
+    font-family: 'Mulish';
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    margin-bottom: 12px;
+}
+
+.service__descr{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+    width: 790px;
+    margin-bottom: 50px;
+}
+
+.service__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.service__item{
+    width: 380px;
+    min-height: 378px;
+    background-color:#1C2752;
+    padding: 50px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service__img{
+    width: 48px;
+    height: 48px;
+}
+
+.service__img img{
+    width: 100%;
+}
+
+.item__title{
+    font-family: 'Mulish';
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #FFB342;
+}
+
+.item__descr{
+    letter-spacing: 0.36px;
+    color: #D2D2D2;
+}
+
+.item__link{
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.item__link:hover{
+    color:#FFB342;
+}
+
+.reason{
+    min-height: 848px;
+}
+.reason__img{
+    width: 50%;
+    min-height: 848px;
+    background: url('../img/reason__bg.png') center center/cover no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items:center
+}
+.reason__ul{
+    width: 560px;
+    min-height: 568px;
+    background-color:rgba(28, 39, 82, 0.86);
+    list-style: none;
+    padding: 100px 80px;
+   
+}
+
+.reason__li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.white{
+    border: 1px solid #fff;
+    font-family: 'Mulish';
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    border-left: none;
+    padding: 16px;
+    width: 290px;
+}
+.orange{
+    font-family: 'Mulish';
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    background-color: #FFB342;
+    border: 1px solid #FFB342;
+    width: 110px;
+    padding: 16px;
+}
+
+
+
+
