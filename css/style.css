@@ -1075,3 +1075,102 @@
     display: flex;
     justify-content: space-around;        
 }
+
+.plan{
+    background-color: #F4F4F4;
+    min-height: 1350px;
+    padding: 140px 0;
+}
+
+.plan__subtitle{
+    background-color:#fff;
+}
+
+
+
+.plan__up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan__text{
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+}
+
+.plan__up__left,
+.plan__text{
+    width: 50%;
+    padding-right: 90px;
+}
+
+.plan__items{
+
+}
+
+.plan__item{
+    width: 380px;
+    min-height: 663px;
+    background-color:#fff;
+    padding: 40px;
+}
+
+.plan__item__up{
+    padding-bottom:36px;
+    border-bottom:1px solid #D7D7D7;
+}
+
+.plan__item__title{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: #1C2752;
+}
+
+.prize{
+    font-family: 'Mulish';
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+}
+
+.prize__text{
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #7E7E7E;
+}
+
+.plan__prize{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-top: 7px;
+}
+
+.plan__ul{
+    list-style: none;
+    padding-top: 29px;
+}
+
+.plan__li{
+    position: relative;
+    font-size: 17px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7E7E7E;
+    margin-bottom: 20px;
+    padding-left: 31px;
+}
+
+.plan__li::before{
+    position: absolute;
+    content: url('../icons/plan__ok.png');
+    width: 17px;
+    height: 17px;
+    top: 3px;
+    left: 0;
+}
+
