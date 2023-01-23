@@ -1301,6 +1301,11 @@
     text-decoration: none;
 }
 
+.new__link:hover{
+    color: #FFB342;
+}
+
+
 .new__link img{
     margin-left: 10px;
 }
@@ -1309,14 +1314,17 @@
     padding-right: 30px;
 }
 
-.news-item{
+.news__item{
     position: relative;
 }
 
 .dateandname{
     display: flex;
     position: absolute;
+    top: 330px;
+    left: 109px;
 }
+
 .name{
     display: inline-block;
     background-color:#FFC368;
