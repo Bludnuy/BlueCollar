@@ -1366,3 +1366,65 @@
     width: 18px;
     height: 20px;
 }
+
+.letter{
+    min-height: 328px;
+    background-color:#FFB342;
+    padding-top: 141px;
+    padding-bottom: 52px;
+}
+
+.letter__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.letter__descr{
+    padding-right: 240px;
+}
+
+.letter__title{
+    font-family: 'Mulish';
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+}
+
+.letter__text{
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+}
+
+.letter__mail{
+    width: 390px;
+    font-size: 17px;
+    letter-spacing: 0.36px;
+    background-color:#FFB342;
+    color: #FFFFFF;
+    border: 2px solid #fff;
+    padding: 20px 25px;
+    border-right: none;
+}
+
+.letter input[type="email"]::placeholder{
+    color:#fff;
+}
+
+.letter__btn{
+    font-size: 17px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+    padding: 19px 48px;
+    background: #FFFFFF;
+    border: 2px solid #FFB342;
+    text-decoration: none;
+    border-left:none;
+}
+
+.letter__inp{
+    display: flex;
+    height: 68px;
+}
