@@ -1304,3 +1304,57 @@
 .new__link img{
     margin-left: 10px;
 }
+
+.item__wrapper{
+    padding-right: 30px;
+}
+
+.news-item{
+    position: relative;
+}
+
+.dateandname{
+    display: flex;
+    position: absolute;
+}
+.name{
+    display: inline-block;
+    background-color:#FFC368;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #1C2752;
+    position: relative;
+    padding: 21px 38px;
+    padding-left: 66px;
+}
+
+.name::before{
+    position: absolute;
+    content: url('../icons/name.png');
+    top: 21px;
+    left: 38px;
+    width: 18px;
+    height: 20px;
+}
+
+.date{
+    display: inline-block;
+    background-color:#FFB342;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #1C2752;
+    position: relative;
+    padding: 21px 38px;
+    padding-left: 66px;
+}
+
+.date::before{
+    position: absolute;
+    content: url('../icons/date2.png');
+    top: 21px;
+    left: 38px;
+    width: 18px;
+    height: 20px;
+}
