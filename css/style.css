@@ -1556,3 +1556,60 @@
 .footer__end{
     margin-left: 66px;
 }
+
+@media (max-width: 1200px) {
+    .container{
+        width: 960px;
+    }
+
+    .nav{
+        padding-right: 20px;
+        width: auto;
+    }
+
+    .menu{
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media (max-width: 992px){
+    .container {
+        max-width: 720px;
+    }
+
+    .middle__wrapper{
+        padding-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .top__wrapper{
+        flex-wrap: wrap;
+    }
+
+    .items{
+        justify-content: center;
+    }
+
+    .item__text{
+        display: none;
+    }
+}
