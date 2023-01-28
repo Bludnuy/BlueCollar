@@ -1428,3 +1428,19 @@
     display: flex;
     height: 68px;
 }
+
+.footer{
+    min-height: 560px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FFFFFF;
+    border: 1px solid #000000; 
+    background-color: #1C2752;
+}
+
+.footer .text__norm, 
+.footer .text__op {
+    color:#fff;
+}
+
+.footer .items{
+    
+}
