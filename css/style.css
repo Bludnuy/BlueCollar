@@ -968,6 +968,10 @@
     margin-right: 10px;
 }
 
+.says__left:hover{
+    background-color:rgba(114, 116, 121, 0.86);
+}
+
 .question{
     background-color: #FFB342;
     padding: 50px 40px;
@@ -1431,16 +1435,124 @@
 
 .footer{
     min-height: 560px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FFFFFF;
-    border: 1px solid #000000; 
     background-color: #1C2752;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
-.footer .text__norm, 
-.footer .text__op {
+.footer .text__norm,
+.footer .text__op{
     color:#fff;
 }
 
-.footer .items{
+.footer .middle__wrapper{
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #4B557D;
+}
+
+.end__wrapper__footer{
+    display: flex;
+   
+    padding-top: 41px;
+    border-bottom:1px solid #4B557D;
+}
+
+.end__left{
+   position: relative;
+   width: 400px;
+   padding-right: 25px;
     
+}
+
+.end__left::before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 223px;
+    background-color:#4B557D;
+    right: 0;
+    top: 115px;
+}
+
+
+.end__text{
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    margin-top: 106px;
+}
+
+.end__ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 52px;
+}
+
+.end__ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: #2C3765;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+
+.end__ul li:hover{
+    background-color:#222222;
+}
+
+.left__link{
+    display: flex;
+}
+
+.end__middle{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 442px;
+}
+
+.end__middle::before{
+    position: absolute;
+    content:'';
+    width: 1px;
+    height: 223px;
+    background-color:#4B557D;
+    right: 0;
+    top: 115px;
+}
+
+.middle__ul{
+    list-style: none;
+}
+
+.middle__ul li{
+    margin-bottom: 10px;
+}
+
+
+
+.middle__link{
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.middle__link:hover{
+    color:#FFB342;
+}
+
+.orange__title{
+    font-size: 20px;
+    color: #FFB342;
+}
+
+.footer__end{
+    margin-left: 66px;
 }
