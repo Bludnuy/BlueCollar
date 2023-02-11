@@ -1772,4 +1772,12 @@
         flex-wrap: wrap;
     }
 
+    .commercial{
+        padding-top: 40px;
+    }
+
+    .commercial__descr{
+        width: auto;
+    }
+
 }
