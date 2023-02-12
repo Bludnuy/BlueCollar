@@ -1557,6 +1557,8 @@
     margin-left: 66px;
 }
 
+
+
 @media (max-width: 1200px) {
     .container{
         width: 960px;
@@ -1582,6 +1584,15 @@
 
     .welcome__ul{
         margin: 0;
+    }
+
+    .electric__wrapper{
+        width: 960px;
+        padding: 30px;
+    }
+
+    .electric__descr{
+        padding-right: 60px;
     }
 }
 
@@ -1636,6 +1647,11 @@
     .welcome__footer{
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    .commercial__link{
+        padding:19px 32px;
+        padding-left: 85px;
     }
 }
 
