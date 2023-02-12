@@ -1645,6 +1645,24 @@
         justify-content: space-evenly;
         align-items: center;
     }
+
+    .commercial__link{
+        padding: 19px;
+        padding-left: 50px;
+    }
+
+    .commercial__link:before{
+        left: 10px;
+    }
+
+    .electric__wrapper{
+        width: 720px;
+        align-items:center;
+    }
+
+    .electric__descr{
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1706,6 +1724,7 @@
 
     .electric__descr{
         text-align: center;
+        
     }
 
     .electric__link{
@@ -1763,6 +1782,26 @@
 
     .commercial__descr{
         width: auto;
+    }
+
+    .commercial__link{
+        display: block;
+        width: 180px;
+    }
+
+    .commercial__links li{
+        margin-right: 5px;
+    }
+
+    .electric__wrapper{
+        width: 100%;
+        position: relative;
+        bottom:-30px;
+    }
+
+    .electric__img img{
+        width: 100%;
+        object-fit: cover;
     }
 
 }
