@@ -1693,8 +1693,31 @@
         width: 275px;
     }
     
+    .reason__wrapper{
+        align-items:stretch;
+    }
+
+    .reason__img{
+        width: auto;
+    }
+
+    .reason__ul{
+        padding: 40px;
+    }
+
+    .white{
+        width: 210px;
+        font-size: 23px;
+    }
+
     .reason__descr{
-        padding: 50px 5px;
+        padding: 50px;
+        width: auto;
+    }
+
+    .descr__li{
+        padding-left: 52px;
+        
     }
 }
 
