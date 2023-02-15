@@ -1076,7 +1076,12 @@
 
 .client__gallery{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;        
+}
+
+.client__gallery img{
+    margin-bottom: 15px;
 }
 
 .plan{
@@ -1093,6 +1098,7 @@
 
 .plan__up{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -1114,6 +1120,7 @@
 
 .plan__items{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -1122,6 +1129,7 @@
     min-height: 663px;
     background-color:#fff;
     padding: 40px;
+    margin-bottom: 15px;
 }
 
 .plan__item__up{
@@ -1223,7 +1231,8 @@
 .plan__down{
     list-style-type: none;
     display: flex;
-    margin-top: 60px;
+    
+    margin-top: 45px;
 }
 
 .down__li{
@@ -1607,6 +1616,18 @@
         padding: 21px 169px;
     }
 
+    .plan__items{
+        justify-content: space-around;
+    }
+
+    .plan__up__left{
+        padding-right: 0;
+    }
+
+    .plan__text{
+        padding-left: 0;
+    }
+
 }
 
 @media (max-width: 992px){
@@ -1850,6 +1871,39 @@
     .descr__li{
         padding-left: 52px;
         
+    }
+
+    .plan__up{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .plan__up__left,
+    .plan__text{
+        width: auto;
+    }
+
+    .plan__text{
+        text-align: center;
+    }
+
+    .plan__subtitle{
+        padding-right: 10px;
+    }
+    .plan__down{
+        flex-wrap: wrap;
+    }
+
+    .plan{
+        padding: 80px 0;
+    }
+
+    .plan__item{
+        padding: 25px;
+    }
+
+    .plan__btn{
+        padding: 16px 80px;
     }
 
     
