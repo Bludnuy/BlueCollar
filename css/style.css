@@ -1598,6 +1598,15 @@
         width: auto;
     }
 
+    .form__wrapper input, 
+    .form__wrapper textarea {
+        width: 400px;
+    }
+
+    .form__btn{
+        padding: 21px 169px;
+    }
+
 }
 
 @media (max-width: 992px){
@@ -1719,6 +1728,25 @@
         padding-left: 52px;
         
     }
+
+    .forms__wrapper{
+        flex-wrap: wrap;
+    }
+
+    .customer,
+    .form{
+        width: auto;
+    }
+
+    .customer__subtitle{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .customer__title{
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 768px) {
