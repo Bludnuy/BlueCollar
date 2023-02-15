@@ -1738,6 +1738,11 @@
         width: auto;
     }
 
+    .customer{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
     .customer__subtitle{
         margin-left: 50%;
         transform: translateX(-50%);
@@ -1838,7 +1843,7 @@
     }
 
     .reason__descr{
-        padding: 50px;
+        padding: 30px;
         width: auto;
     }
 
@@ -1949,4 +1954,20 @@
         margin-right: 0;
     }
 
+    .forms__wrapper{
+        justify-content: center;
+    }
+
+    .form__wrapper{
+        padding: 0;
+    }
+
+    .form__wrapper input, 
+    .form__wrapper textarea {
+        width: 300px;
+    }
+
+    .form__btn{
+        padding: 21px 120px;
+    }
 }
