@@ -1807,6 +1807,15 @@
         margin-bottom: 15px;
     }
 
+    .footer .middle__wrapper{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer__end {
+        margin-left: 15px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -1953,6 +1962,42 @@
 
     .letter__mail{
         width: 355px;
+    }
+
+    .end__wrapper__footer{
+        border-bottom:none;
+    }
+
+    .end__left::before,
+    .end__middle::before{
+        display: none;
+    }
+
+    .end__left{
+        text-align: center;
+        
+        padding-right: 0;
+        margin-bottom: 45px;
+    }
+
+    .end__text{
+        margin-top: 0;
+    }
+
+    .end__ul{
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .end__wrapper__footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .footer__end{
+        margin-top: 15px;
+        margin-left: 0;
     }
     
 
