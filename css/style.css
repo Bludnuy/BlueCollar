@@ -2085,6 +2085,11 @@
     .white{
         width: 210px;
         font-size: 22px;
+        padding: 13px;
+    }
+
+    .orange{
+        padding: 13px;
     }
 
     .reason__descr{
@@ -2144,6 +2149,10 @@
 
     .letter__btn{
         border: 2px solid #FFB342;
+    }
+
+    .middle__wrapper{
+        justify-content: center;
     }
     
 }
